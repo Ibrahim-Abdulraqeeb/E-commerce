@@ -1,0 +1,165 @@
+<!DOCTY html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<title>IK Phones</title>
+
+</head>
+<body>
+	<div id="color">
+<nav> 
+<ul>
+<li>
+	<a href="index.html">Home</a>
+</li>
+
+<li>
+	<a href="index.html">Items</a>
+	<ul>
+		<li>
+			<a href="Apple.html">Apple</a>
+		</li>
+		<li>
+			<a href="Samsung.html">Samsung</a>
+		</li>
+		<li>
+			<a href="Huawei.html">Huawei</a>
+		</li>
+		<li>
+			<a href="Motorola.html">Motorola</a>
+		</li>
+	</ul>
+</li>
+	
+<li>
+	<a href="To communicate.html">Contact Us</a>
+</li>
+<li>
+	<a href="About.html">About</a>
+</li>
+<li>
+	<a href="Log in.html">Log in</a>
+</li>
+
+</ul>
+
+
+</nav>
+
+</div>
+<br/>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <a href="Iphone 12Pro Max.html">
+    <img src="Images/Iphone 12Pro Max1.jpg" >
+
+    <div class="text">Iphone 12Pro Max</div>
+</a>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <a href="Samsung s20Ultra.html">
+    <img src="Images/Samsung s20Ultra1.jpg" >
+
+    <div class="text">Samsung s20Ultra</div>
+</a>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <a href="Huawei p40Pro.html">
+    <img src="images/Huawei p40Pro1.jpg" >
+
+    <div class="text">Huawei p40Pro</div>
+</a>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <a href="Motorola edge.html">
+    <img src="images/Motorola edge1.jpg" >
+
+    <div class="text">Motorola edge</div>
+</a>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr/>
+	<a href="https://WWW.youtube.com">
+		<img  src="Images/youtubelogo.png" style="width: 4%; height:6%;">
+	</a>
+		<a href="https://WWW.facebook.com">
+		<img src="Images/facebooklogo.png" style="width: 8.5%; height: 7.5%;">
+	</a>
+	<a href="https://WWW.instagram.com">
+	<img src="Images/instagramlogo.jpg" style="width: 5%; height: 7%;" >
+</a>
+
+
+<h5>®Copyright Reserved To Ibrahim & khaled Studio.</h5>
+</body>
+</html>
+
